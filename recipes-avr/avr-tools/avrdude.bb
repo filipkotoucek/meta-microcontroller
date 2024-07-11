@@ -15,6 +15,7 @@ DEPENDS = " \
     libusb1 \
     libftdi \
     hidapi \
+    readline \
 "
 
 SRC_URI = "git://github.com/avrdudes/avrdude.git;protocol=https;branch=main"
